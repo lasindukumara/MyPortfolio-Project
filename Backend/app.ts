@@ -1,5 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import sqlite3 from 'sqlite3';
+
 dotenv.config();
 const app = express();
 
